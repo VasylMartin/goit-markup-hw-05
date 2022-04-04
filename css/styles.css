@@ -171,8 +171,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-item:not(:last-child) {
@@ -200,6 +199,7 @@ body {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -245,6 +245,7 @@ body {
   color: var(--footer-contacts);
   font-style: normal;
   display: inline-block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-footer:not(:last-child) {
@@ -283,6 +284,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   fill: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -339,6 +341,7 @@ body {
   padding-left: 32px;
   border-radius: 4px;
   border: 0px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mbtn:hover,
@@ -455,6 +458,8 @@ body {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
@@ -517,6 +522,7 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-partner:hover,
@@ -539,6 +545,8 @@ body {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: 0px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
@@ -624,6 +632,7 @@ body {
 
 .card-list-item {
   width: 370px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-list-item:hover,
